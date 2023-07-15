@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+    border: 1px solid #73AD21;
+    border-radius: 10px;
+    width: 40%;
+    /* height: 550px; */
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(176, 206, 206);
+}
+
+.maindiv {
+    padding: 10px;
+    background-color: #FFDEAD;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.calscreen {
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* height: 30px; */
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;
+    font-size: large;
+}
+
+.calbuttons {
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+
+p {
+    color:black;
+    text-align: center;
+    border: 1px solid rgb(226, 148, 148);
+    width: 20%;
+    font-size: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px;
+    background-color: white;
+
+}
+
+p:hover {
+    background-color: rgb(223, 218, 218);
+    /* background-color: white; */
+}
+
+#screen {
+    border: none;
+    padding: 5px;
+    width: 96%;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 2em;
+  
+    /* text-align: left; */
+
+}
+
+#clearbtn{
+    background-color:#FF6347;;
+    color:black;
+    box-shadow: 2px 2px 4px;
+}
+#clearbtn:hover{
+    background-color: #fd4f31;
+}
+#equ{
+    background-color:#1E90FF;
+    color:black;
+    box-shadow: 2px 2px 4px;
+}
+#equ:hover{
+    background-color:#046bd1;
+}  

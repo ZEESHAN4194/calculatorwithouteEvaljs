@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+    border: 1px solid #73AD21;
+    border-radius: 10px;
+    width: 35%;
+    /* height: 550px; */
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(176, 206, 206);
+}
+
+.maindiv {
+    padding: 10px;
+    background-color: rgb(108, 114, 114);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.calscreen {
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* height: 30px; */
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;
+    font-size: large;
+    display: inline-block;
+}
+
+.calbuttons {
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+.calbuttons1 {
+    border-radius: 10px;
+    display: inline-block;
+    /* justify-content: space-around; */
+    margin-top: 4%;
+    /* border: 2px solid black; */
+    /* padding: 10px; */
+}
+
+p {
+    color:white;
+    text-align: center;
+    border: 1px solid rgb(226, 148, 148);
+    width: 21%;
+    font-size: 50px;
+    border-radius: 10px;
+
+}
+
+p:hover {
+    background-color: rgb(83, 81, 81);
+    /* background-color: white; */
+}
+
+#screen {
+    border: none;
+    padding: 5px;
+    width: 96%;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 2em;
+    /* display: none; */
+    /* text-align: left; */
+
+}
+#screen1 {
+    border: none;
+    padding: 5px;
+    width: 96%;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 2em;
+    /* text-align: left; */
+    /* display: none; */
+
+}
+#screen2 {
+    border: none;
+    padding: 5px;
+    width: 96%;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 2em;
+    /* text-align: left; */
+    display: none;
+
+}
+#clearbtn{
+    background-color: rgb(247, 112, 112);
+    color:white;
+}
+#equ{
+    background-color: rgb(204, 175, 121);
+    color: white;
+}
+#equ:hover{
+    background-color: rgb(190, 136, 34);
+}  
+#cutbtn{
+    /* float: right; */
+    /* display: block; */
+}

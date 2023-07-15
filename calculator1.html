@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="maindiv">
+            <h2>Calculator</h2>
+            <div class="calscreen">
+                <!-- <div class="calbuttons1">
+                    <h4 id="cutbtn" onclick="cutbtn()">Del</h4>
+                </div> -->
+                <input type="text" id="screen" value="" >
+                <!-- <input type="hidden" id="sc" value=""> -->
+                
+                <!-- <input type="text" id="screen1" value="" readonly=""> -->
+                <!-- <input type="text" id="screen2" value="" readonly=""> -->
+            </div>
+            <div class="calbuttons">
+                <p onclick="brktclick('(')">(</p>
+                <p onclick="brktclick(')')">)</p>
+            
+                <!-- <p id="clearbtn" onclick="clearbtn()">C</p> -->
+            </div>
+            <div class="calbuttons">
+                <p onclick="btnclick(7)">7</p>
+                <p onclick="btnclick(8)">8</p>
+                <p onclick="btnclick(9)">9</p>
+                <p id="clearbtn" onclick="clearbtn()">C</p>
+            </div>
+            <div class="calbuttons">
+                <p onclick="btnclick(4)">4</p>
+                <p onclick="btnclick(5)">5</p>
+                <p onclick="btnclick(6)">6</p>
+                <p onclick="operatorclick('*')">x</p>
+            </div>
+            <div class="calbuttons">
+                <p onclick="btnclick(1)">1</p>
+                <p onclick="btnclick(2)">2</p>
+                <p onclick="btnclick(3)">3</p>
+                <p onclick="operatorclick('-')">-</p>
+            </div>
+            <div class="calbuttons">
+                <p onclick="btnclick(0)">0</p>
+                <p onclick="operatorclick('/')">/</p>
+                <p id="equ" onclick="equ(number)">=</p>
+                <p onclick="operatorclick('+')">+</p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- <script src="myscript.js"></script> -->
+    <script src="myscript1.js"></script>
+
+</body>
+
+</html>
